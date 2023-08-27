@@ -72,7 +72,7 @@
         const sub=()=>{
             let num1=document.getElementById('num1').value
             let num2=document.getElementById('num2').value
-            num1>num2?(document.getElementById('result').value=(parseInt(num1)-parseInt(num2))):(document.getElementById('result').value=(parseInt(num2)-parseInt(num1)))
+            parseInt(num1)>parseInt(num2)?(document.getElementById('result').value=(parseInt(num1)-parseInt(num2))):(document.getElementById('result').value=(parseInt(num2)-parseInt(num1)))
         }
         function multiply() {
             let n1 = document.getElementById('num1').value
